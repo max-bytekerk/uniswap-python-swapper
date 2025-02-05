@@ -86,7 +86,7 @@ except Exception as e:
 3. **Transaction Construction:** Leverages `uniswap-universal-router-decoder` to encode swap calls. Handles `v3_swap_exact_in` or `v4_swap` logic depending on `pool_version`.
 4. **Transaction Submission:** Signs and sends a **type=2** (EIP-1559) transaction with dynamic gas.
 5. **Stuck Transactions Check:** If a nonce is stuck, attempts to cancel it by sending a 0-value tx with a higher gas.
-
+6. **Stuck but not visible Transaction?:** Uncomment nonce, write in specific nonce that is the problem and it will attempt to cancel it by sending a 0-value tx with a higher gas.
 ---
 
 ## Code Overview
