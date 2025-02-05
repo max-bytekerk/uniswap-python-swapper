@@ -41,7 +41,7 @@ python --version
 
 ```python
 from web3 import Web3
-from uniswap_swaps import Uniswap  # or whatever you name this script
+from uniswap_universal_router import Uniswap  # or whatever you name this script
 
 # 1. Connect to an L2 or mainnet RPC
 provider_url = "https://base-mainnet-rpc.example"  # Replace with your provider
@@ -69,7 +69,7 @@ try:
         to_token="0xTOKEN_OUT_ADDRESS",
         amount=amount_in_wei,
         fee=3000,         # e.g., 3000 for a 0.3% Uniswap V3 pool
-        slippage=0.5,     # 0.5% slippage tolerance
+        slippage=0.5,     # non-functional right now. 0.5% slippage tolerance
         pool_version="v3"  # can be "v3" or "v4"
     )
     print(f"Swap transaction sent! Tx hash: {tx_hash.hex()}")
