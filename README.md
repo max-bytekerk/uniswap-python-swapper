@@ -6,7 +6,7 @@ A **user-friendly Python script** that demonstrates how to execute **SWAP_EXACT_
 
 ## Features
 - **Supports** Uniswap v4 Universal Router.
-- **Works** with both v3 and v4 pools.
+- **Works** with both v3 and v4 (untested) pools.
 - **Auto-selects** the router address based on the connected chain (Base, Optimism, Polygon, Arbitrum, Ethereum).
 - **Permit2 integrated** for simplified token approvals.
 - **Checks & Cancels** stuck transactions automatically.
