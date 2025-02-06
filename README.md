@@ -142,7 +142,7 @@ This project is released under the **MIT License**.
 ---
 
 ### Credits
-- Built on top of [`uniswap-universal-router-decoder`](https://github.com/chain-cogs/uniswap-universal-router-decoder) for encoding/decoding logic.
+- Built on top of [`uniswap-universal-router-decoder`](https://github.com/elnaril/uniswap-universal-router-decoder) for encoding/decoding logic.
 - Thanks to [Web3.py](https://github.com/ethereum/web3.py/) and [Eth Account](https://github.com/ethereum/eth-account).
 
 
